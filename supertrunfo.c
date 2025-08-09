@@ -6,13 +6,14 @@ int main() {
     char estado[20]; // 2 letras iniciais Estado
     char codigo[5];  // Código da carta (ex: A01, A02, ..., H04)
     char cidade[40]; // Nome da cidade
-    int populacao;    // População da cidade
-    float area;       // Área da cidade (em km²)
-    float pib;        // PIB da cidade (em milhões)
+    int populacao;   // População da cidade
+    float area;      // Área da cidade (em km²)
+    float pib;       // PIB da cidade (em milhões)
     int pontos_turisticos;  // Número de pontos turísticos
 
 
 // Carta 1
+
     printf("Cadastro da cidade:\n");
     printf("Digite o código da carta: ");
     scanf("%s", codigo);
