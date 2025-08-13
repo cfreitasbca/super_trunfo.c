@@ -3,12 +3,12 @@
 
 int main() {
     // Variáveis para armazenar os dados de cada cidade
-    char (estado[20]); // 2 letras iniciais Estado
+    char estado[20]; // 2 letras iniciais Estado
     char codigo[5];  // Código da cidade (ex: A01, A02, ..., H04)
     char cidade[40]; // Nome da cidade
     int populacao;    // População da cidade
     float area;       // Área da cidade (em km²)
-    float pib;        // PIB da cidade (em milhões)
+    float pib;        // PIB da cidade
     int pontos_turisticos;  // Número de pontos turísticos
     float densidade_populacional; // Densidade populacional (area da cidade / população)
     float pib_per_capita; // PIB PER CAPITA (PIB/pela população)
@@ -20,7 +20,7 @@ int main() {
     printf("Digite o código da cidade: ");
     scanf("%s", codigo);
     printf("Digite as inicias do Estado: ");
-    scanf("%s", &estado);
+    scanf("%s", estado);
     printf("Digite a cidade: ");
     scanf("%s", cidade);
     printf("Digite a população: ");
